@@ -61,9 +61,9 @@ This project was implemented using **Oracle VirtualBox**. The network included:
 ## Attack Simulation
 ### 1. Reconnaissance
 - Conducted an `nmap` scan from Kali Linux to identify open ports and services on the pfSense system:
-  ```bash
-  nmap -A -Pn 192.168.1.1
-  ```
+
+   `nmap -A -Pn 192.168.1.1`
+ 
 <div align="center">
   <img src="https://i.imgur.com/IhQTRTL.png" alt="Kali Nmap Scan" width="600">
 </div>
