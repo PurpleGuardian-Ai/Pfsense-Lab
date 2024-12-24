@@ -30,15 +30,15 @@ This project was implemented using **Oracle VirtualBox**. The network included:
 ## Setup Instructions
 
 ### 1. pfSense Installation
-1. Created a Virtual Machine for pfSense in VirtualBox.
-2. Configured two network adapters:
+Created a Virtual Machine for pfSense in VirtualBox.
+Configured two network adapters:
    - **Adapter 1 (NAT)**: Provides internet access.
    - **Adapter 2 (Internal Network)**: Connects to the local network.
 <div align="center">
   <img src="https://i.imgur.com/jsT2j3g.png" alt="Internal Network Setup" width="600">
 </div>
 
-3. Installed and configured pfSense:
+Installed and configured pfSense:
    - Assigned WAN to Adapter 1 and LAN to Adapter 2.
    - Set the LAN static IP to `192.168.1.1`.
 <div align="center">
@@ -59,7 +59,7 @@ This project was implemented using **Oracle VirtualBox**. The network included:
 </div>
 
 ## Attack Simulation
-### 1. Reconnaissance
+### Reconnaissance
 - Conducted an `nmap` scan from Kali Linux to identify open ports and services on the pfSense system:
 
    `nmap -A -Pn 192.168.1.1`
