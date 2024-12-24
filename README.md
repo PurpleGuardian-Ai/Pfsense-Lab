@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # pfSense Network Security Simulation Project
 
 ## Overview
